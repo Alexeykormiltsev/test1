@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+    z-index: 1;
+}
+
+body {
+    // position: relative;
+    // @extend %roboto-400;
+    font-size: 16px;
+    line-height: 24px;
+    // color: $default;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 0 15px;
+}
+
+.alt-container {
+    margin: 0 auto;
+    max-width: 920px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.title {
+    @extend %play-700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #181818;
+    margin-bottom: 20px;
+}

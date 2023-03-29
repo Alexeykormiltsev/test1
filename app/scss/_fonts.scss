@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Play-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: local('Play-Regular'),
+        url('../fonts/Play-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Play-Bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    src: local('Play-Bold'),
+        url('../fonts/Play-Bold.woff2') format('woff2');
+    font-display: swap;
+}
