@@ -35,4 +35,14 @@ body {
     line-height: 74px;
     color: #181818;
     margin-bottom: 20px;
+
+    @media (max-width: 1000px) {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    @media (max-width: 890px) {
+        font-size: 32px;
+        line-height: 48px;
+    }
 }

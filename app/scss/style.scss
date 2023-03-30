@@ -23,6 +23,10 @@
         align-items: center;
     }
 
+    &__link {
+        flex-shrink: 0;
+    }
+
     .nav {
         &__list {
             display: flex;
@@ -119,6 +123,10 @@
             }
         }
 
+        input {
+            outline: none;
+        }
+
         &__btn {
             font-size: 36px;
             line-height: 42px;
@@ -153,7 +161,7 @@
         }
 
         .copy {
-        @extend %play-400;
+            @extend %play-400;
             margin-bottom: 50px;
             font-size: 36px;
             line-height: 42px;
