@@ -47,6 +47,7 @@
     }
 
     &__bottom--link {
+        @extend %play-700;
         padding: 30px 60px;
         color: #fff;
         font-size: 36px;
@@ -56,8 +57,9 @@
         transition: all .4s;
 
         &:hover {
-            color: #52ABFE;
-            border: 3px solid #52ABFE;
+            color: #181818;
+            background: rgba(255, 255, 255, 0.8);
+            border: 3px solid #FFFFFF;
         }
     }
 }
@@ -72,8 +74,6 @@
 
         &__text {
             @extend %play-400;
-            font-size: 36px;
-            line-height: 42px;
             color: #5A687D;
             margin-bottom: 100px;
         }
@@ -92,8 +92,6 @@
 
         &__text {
             @extend %play-400;
-            font-size: 36px;
-            line-height: 42px;
             color: #5A687D;
             margin-bottom: 50px;
         }
@@ -106,7 +104,7 @@
 
         &__input {
             padding: 12px;
-            width: 920px;
+            width: 550px;
             font-size: 36px;
             line-height: 42px;
             border: 1px solid #181818;
@@ -128,22 +126,22 @@
         }
 
         &__btn {
+            @extend %play-400;
             font-size: 36px;
             line-height: 42px;
             color: #fff;
             padding: 12px 0;
             background: #52ABFE;
             border-radius: 8px;
-            width: 920px;
+            width: 550px;
             border: none;
             cursor: pointer;
             transition: all .4s;
             border: 1px solid transparent;
 
             &:hover {
-                color: #52ABFE;
-                background: #fff;
-                border: 1px solid #52ABFE;
+                background: #181818;
+                border: 1px solid #181818;
             }
         }
     }
