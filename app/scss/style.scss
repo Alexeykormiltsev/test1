@@ -99,12 +99,11 @@
         &__label {
             display: block;
             margin-bottom: 20px;
-
         }
 
         &__input {
             padding: 12px;
-            width: 550px;
+            max-width: 550px;
             font-size: 36px;
             line-height: 42px;
             border: 1px solid #181818;
@@ -133,7 +132,7 @@
             padding: 12px 0;
             background: #52ABFE;
             border-radius: 8px;
-            width: 550px;
+            max-width: 550px;
             border: none;
             cursor: pointer;
             transition: all .4s;
